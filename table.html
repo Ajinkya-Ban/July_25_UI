@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 80%;
+        min-height: 100px;
+        border: 3px solid #000;
+        margin: auto;
+        padding: 10px;
+      }
+      .box h1 {
+        text-align: center;
+        font-size: 42px;
+        font-weight: 200;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #000;
+        height: 25px;
+        text-align: center;
+      }
+      table {
+        border-collapse: collapse;
+        margin: auto;
+        width: 900px;
+      }
+      th {
+        padding: 15px;
+        background-color: lightslategray;
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+      }
+      .update {
+        width: 120px;
+        height: 20px;
+        padding: 10px 20px;
+        background-color: royalblue;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+      }
+      .del {
+        width: 120px;
+        height: 20px;
+        padding: 10px 20px;
+        background-color: tomato;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Employee Info🧑‍🦱</h1>
+      <table>
+        <thead>
+          <th>Photo</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>Mobile</th>
+          <th>City</th>
+          <th>Salary</th>
+          <th>Actions</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="imgs/user2.jpg" width="60px" height="60px" /></td>
+            <td>Sanjay Dutta</td>
+            <td>55</td>
+            <td>sanjay@gmail.com</td>
+            <td>8989898989</td>
+            <td>Mumbai</td>
+            <td>12500</td>
+            <td>
+              <a href="#" class="update">Update</a>
+              <a href="#" class="del">Delete</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <img src="imgs/user3.jpg" width="60px" height="60px" />
+            </td>
+            <td>Ajay Devgan</td>
+            <td>58</td>
+            <td>ajay@gmail.com</td>
+            <td>8989898990</td>
+            <td>Mumbai</td>
+            <td>13500</td>
+            <td>
+              <a href="#" class="update">Update</a>
+              <a href="#" class="del">Delete</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

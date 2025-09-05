@@ -1,0 +1,130 @@
+windows --> cmd/console/black window/ x window --> ipconfig --> IPv4
+Linux/Mac --> terminal --> ifconfig
+
+URL
+----
+10.169.230.101:5500/index.html
+========================================================================
+
+Basic Tags
+-----------------------
+1. p: paragraph: static information display
+2. a: anchor tag : nevigation --> one page to another pag.
+3. mark: This tag basically used for to highlight the text.
+4. strong : strong tag can be used for to make text bold another tag for making the text
+is <b></b>
+5. em: To make the text itelic. The another tag for making the text itelic we use <i></i>.
+6. pre: pre formatted text.
+7. span: This tag create internal space/ section/container. This tag can be used for
+to highlight char or word.
+8. marquee: This tag can be used for to move the text from left, right, up, down direction.
+We can use some attribute for this tag like, 
+width, height, direction, scrollamount, behaviour
+9. sup: superscript
+10.sub: subscript
+
+
+
+Attribute : extra information about the tag is called attributes.
+Every html element has style.
+
+====================================================================================
+
+Sementic Tags
+---------------------
+Google 2009 meta tags close.
+Meta keywords can be used for SEO(Search Engine Optimization).
+Semanrtic Tags can be used for to perform SEO.
+
+Q. What is mean by sementic tags?
+----------------------------------------
+Such tag there will be no write extra defination.
+
+The following are the sementic tags are present in html
+-----------------------------------------------------------
+1. header : header contains Company name as well as logo, menu --> simple menu or dropdown menu 
+2. footer : address, extra menu, map, conatct details, terms and conditions, privacy and policy, who maintain the website.
+3. audio : audio -> controls->loop->autoplay-> muted, source
+4. video :
+5. section : it is the replacement for div 
+6. main : it is the replacement for body tag
+7. aside : It is like sidebar which is present at left side or right side or both.
+8. article : it is the small section which are present on web page.
+9. nav : In this tag we create menu --> simple menu or dropdown menu
+=========================================================
+img format --> webp
+generally we take format like --> jpg, jpeg, png, gif bmp
+i have one image which has size 10MB so it will create a problem.
+
+What is problem?
+-------------------------
+Webpage will take time for loading.
+
+Solution for this?
+----------------------------
+To convert image into webp.
+
+---------------------------------------------------------------
+UL and OL tags
+-----------------------
+Basically this tag can be used for making the menus.
+Simple menu
+dropdown menu
+
+
+UL(Unordered List):
+-----------------------------------
+1. In this tag there is no sequance present.
+2. In UL the element has the default value bullet.
+3. We can also change the default value by using the attribute called type.
+4. But the type attribute depricated in html5.
+5. Inside the <ul></ul> tag there will be <li></li> list tag
+6. You can handle the type attribute by using css property.
+
+Nesting UL:
+---------------------
+This can be used for to make menu the dropdown.
+
+OL(Ordered List):
+--------------------------------
+1. In this there will be sequance of numbers as well as alphabets present.
+2. By default it has value like numbers.
+3. You can change the value by using attribute called as type.
+4. So the type attribute not depricated for OL tag.
+5. You can also pass the attribute like start and reversed.
+
+Example:
+-------------------
+
+Table Tags
+---------------------
+1. Table tag can be used for to fetch the data from database and display the data on table.
+2. Table can be used for to create the website the layout. This happed in html3 and html4 version.
+   When you use table for making the layout it is very difficult job to maintain the table as responsive.
+3. Table tag can be used for to create well aligned format.
+4. In html5 when we use the table html5 provide the tag called <table></table>.
+5. The table tag has the following attribute which is not used in html5
+    a) width
+    b) height
+    c) cellspacing
+    d) cellspadding
+    e) border
+
+6. Only allowed attribute are
+    a) rowsspan
+    b) colsspan
+
+7. The following has the basic tags which are used with table
+    a) table 
+    b) thead --> the group of table heading (th)
+    c) th --> table heading
+    d) tr --> table row 
+    e) td --> table data 
+    f) tbody --> table body --> create the group of tr 
+    
+
+
+
+Form Tags
+-----------------------
+
