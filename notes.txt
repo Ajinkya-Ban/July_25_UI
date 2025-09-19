@@ -111,7 +111,7 @@ Table Tags
     e) border
 
 6. Only allowed attribute are
-    a) rowsspan
+    a) rowspan :
     b) colsspan
 
 7. The following has the basic tags which are used with table
@@ -121,7 +121,31 @@ Table Tags
     d) tr --> table row 
     e) td --> table data 
     f) tbody --> table body --> create the group of tr 
+    2009 to 2012 --> html4 
     
+Image Mappping:
+-------------------------
+Mapping is nothing but to create small clickable areas on image is called image mapping.
+In html we use two tags for image mapping
+1. map 
+2. area --> inside this we use the attribute like shape, co-ords, href, target
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
