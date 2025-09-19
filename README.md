@@ -20,4 +20,29 @@ Basic HTML Tags
 
 <sub> → Subscript.
 
-Attributes: Extra information about a tag (e.g., id, class, style, etc.).
+Semantic Tags
+
+Semantic tags improve SEO (Search Engine Optimization).
+They describe the meaning of content instead of just its presentation.
+
+Examples:
+
+<header> → Company name, logo, navigation menu.
+
+<footer> → Address, extra menu, map, contact details, terms & conditions, privacy policy.
+
+<audio> → Add audio (controls, loop, autoplay, muted, source).
+
+<video> → Add videos.
+
+<section> → Replacement for <div>.
+
+<main> → Replacement for <body>.
+
+<aside> → Sidebar (left or right).
+
+<article> → Independent small section of content.
+
+<nav> → Navigation menu (simple or dropdown).
+
+
