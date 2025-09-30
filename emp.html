@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/emp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="form-data">
+        <h2>Employee Register Form</h2>
+        <table>
+          <tr>
+            <td class="label-right">
+              <label for="fname">FullName</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Enter fullname here"
+                autocomplete="off"
+                required
+              />
+              <span class="validation">Name must be Fullname + LastName</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="email">Email Address</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter email address"
+                autocomplete="off"
+                required
+              />
+              <span class="validation">Enter valid email address</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="mob">Mobile Number</label>
+            </td>
+            <td>
+              <input
+                type="number"
+                id="mob"
+                name="mob"
+                placeholder="Enter mobile number"
+                autocomplete="off"
+                required
+              />
+              <span class="validation">Enter 10 digit valid number</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="birth">Select Birthdate</label>
+            </td>
+            <td>
+              <input type="date" id="birth" name="birth" required />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="gender">Select Gender</label>
+            </td>
+            <td>
+              <input
+                type="radio"
+                id="gender"
+                name="gender"
+                value="male"
+                required
+              />
+              <label>Male</label>
+
+              <input
+                type="radio"
+                id="gender"
+                name="gender"
+                value="female"
+                required
+              />
+              <label>Female</label>
+
+              <input
+                type="radio"
+                id="gender"
+                name="gender"
+                value="other"
+                required
+              />
+              <label>Other</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="skills">Select Skills</label>
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                id="skills"
+                name="cooking"
+                value="cooking"
+              />
+              <label>Cooking</label>
+
+              <input type="checkbox" id="skills" name="chess" value="chess" />
+              <label>Chess</label>
+
+              <input
+                type="checkbox"
+                id="skills"
+                name="cricket"
+                value="cricket"
+              />
+              <label>Cricket</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="country">Select Country</label>
+            </td>
+            <td>
+              <select id="country" name="country">
+                <option value="select">Select</option>
+                <option value="ind">India</option>
+                <option value="china">China</option>
+                <option value="usa">USA</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="state">Select State</label>
+            </td>
+            <td>
+              <select id="state" name="state">
+                <option value="select">Select</option>
+                <option value="mh">Maharashtra</option>
+                <option value="up">Uttar Pradesh</option>
+                <option value="mp">Madhya Pradesh</option>
+                <option value="goa">Goa</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="city">Enter city</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Enter city here"
+                autocomplete="off"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="add">Enter Permanent Address</label>
+            </td>
+            <td>
+              <textarea id="add" name="add" rows="5" required> </textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right">
+              <label for="photo">Browse File</label>
+            </td>
+            <td>
+              <input type="file" id="photo" accept=".pdf" />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="label-right"></td>
+            <td>
+              <button type="button" id="btn_register">
+                <i class="fa-solid fa-user-plus fa-bounce"></i> Register
+              </button>
+
+              <button type="button" id="btn_clear">
+                <i class="fa-solid fa-trash-can fa-spin fa-spin-reverse"></i>
+                Clear
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

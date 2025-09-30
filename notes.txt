@@ -132,23 +132,65 @@ In html we use two tags for image mapping
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Form Tags
 -----------------------
+Why we use form?
+---------------------
+to collect the data.
+
+
+
+basic syntax
+----------------------
+<form action="/save" method=>
+</form>
+
+What are the different attribute we pass for form tag?
+------------------------------------------------------------
+1. action --> end points / page link
+2. method --> post= to save the database --> 201, get=to get the data from database/perticular data , 
+put/patch --> to update the data -->200, delete--> to delete the data from table ,
+3. enct-type: file --> .pdf, .text, .jpg, .png, .mp3 // multipart-form-data
+4. id =
+5. name = 
+
+http://localhost:7888/save
+http://localhost:7888/edit
+
+
+Emp Register
+-------------------------
+FullName
+Email 
+Mobile 
+Birthdate 
+Gender --> radio
+Skills --> checkbox
+Country --> dropdown --> select --> options + optgroup 
+State
+City
+Address 
+Upload Photo
+
+button --> Register --> icon + Text
+button --> Clear
+
+input type ==> text, date, number, password, email,file
+
+
+
+
+
+CORS --> 
+
+
+
+
+
+
+
+
+
+
+
 
