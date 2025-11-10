@@ -1,0 +1,29 @@
+@import "style1.css";
+
+h1 {
+  color: green;
+}
+.text_change h1 {
+  color: aqua;
+}
+.change_color h1 {
+  background-color: purple;
+}
+.text_change p {
+  width: 400px;
+  min-height: 20px;
+}
+.changeh2 h2 {
+  font-size: 30px;
+  background-color: brown;
+  color: white;
+}
+.changeh2 table,
+tr,
+th {
+  border: 1px solid #000;
+}
+.changeh2 table {
+  border-collapse: collapse;
+  width: 500px;
+}

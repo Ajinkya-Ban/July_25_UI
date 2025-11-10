@@ -1,0 +1,66 @@
+CSS Introduction
+---------------------------
+What is mean by css?
+What are the advantgaes of css?
+Who develop css?
+Latest CSS3 --->2008
+
+What are the different ways to add CSS in html file?
+-----------------------------------------------------------
+1. By using inline CSS
+2. By using internal CSS
+3. By using external CSS 
+
+Every html element/tags has style.
+The heihest priority for inline css.
+
+
+What is mean CSS Selectors?
+-------------------------------------------------
+Selectors means it is a targeting element/tag. 
+
+What are the different Selectors present in CSS?
+--------------------------------------------------------
+1. By using id --> id indicated by using # symbol. ID is unique
+2. By using class --> class indicated by dot(.). We can use multiple classes for single element.
+
+3. By using tag
+4. By using class with tag or tag with class
+5. pseduo element:
+----------------------------------------------------
+In html there are total 6 elements are present.
+This element can be used for to target specific word or specific line.
+The pseduo element denoted by :: double colon. 
+1. ::before
+2. ::after
+3. ::first-line
+4. ::selection
+5. ::first-letter
+6. ::placeholder
+7. ::marker
+
+6. pseduo classes: 35+ --> 10
+7. Universal Selectors --> by using *(star)
+8. group Selectors
+======================================================================
+How we can desgin layout using html and css
+-----------------------------------------------
+For desging the layout we use only 10 properties
+
+1. width
+2. height / min-height
+3. background-color
+4. color
+5. padding
+6. margin
+7. text-decoration 
+8. float --> left / right 
+9. font-size / font-weight / font-family
+10. display --> block, inline, inline-block, flex, grid, list, table, table-row
+
+
+
+
+
+
+git add
