@@ -96,3 +96,50 @@
   width: 100%;
   min-height: 300px;
 }
+.box .hiring-desc {
+  width: 70%;
+  float: left;
+}
+.hiring-desc h2 {
+  margin-bottom: 10px;
+  color: #34276e;
+}
+.hiring-desc p {
+  text-align: justify;
+}
+.box .hiring-img {
+  width: 29%;
+  float: right;
+}
+.hiring-img img {
+  width: 100%;
+  margin-top: 35px;
+  padding: 10px;
+}
+
+/* code for second box */
+.box .hiring-desc1 {
+  width: 70%;
+  float: right;
+}
+.hiring-desc1 h2 {
+  margin-bottom: 10px;
+  color: #34276e;
+}
+.hiring-desc1 p {
+  text-align: justify;
+  padding: 10px;
+}
+.box .hiring-img1 {
+  width: 29%;
+  float: left;
+}
+.hiring-img1 img {
+  width: 100%;
+  margin-top: 35px;
+  padding: 10px;
+  height: 300px;
+}
+.hiring-desc1 h2 {
+  color: #203632;
+}
