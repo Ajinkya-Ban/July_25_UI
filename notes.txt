@@ -58,9 +58,145 @@ For desging the layout we use only 10 properties
 9. font-size / font-weight / font-family
 10. display --> block, inline, inline-block, flex, grid, list, table, table-row
 
+=================================================================================
+1. background
+    a) background-color 
+    b) background-image
+        1. background-imgae: linear-gradient(direction, colors)
+        2. background-image : url(image path)
+    c) background-Size: cover and contains and percentage and pixel 
+    d) background-position: left, right, top, bottom, center
+    e) background-repeat : repeat, no-repeat, repeat-x, repeat-y
+    f) background-attachment : scroll and fixed
+
+
+2. position:
+-------------------------
+1. relative
+2. absolute
+3. sticky
+4. fixed
+5. static
+
+Without using padding and margin how we can move html element?
+using position properties in that we can use,
+1. right
+2. top
+3. left
+4. bottom
+5. z-index
+
+=================================================================================
+
+
+Dispaly properties in CSS
+-----------------------------------
+Dispaly properties can be used for to display how html element looks on browser.
+For this we can use the properties like,
+
+1. block
+2. inline 
+3. inline-block
+4. flex 
+5. grid 
+6. table
+7. list 
+------------------------------------------------------------------------------
+What is mean by flex in css?
+--------------------------------------
+- Flex is one type of tool that can be used for to make each box flexible.
+- Flex can work on only one direction at a time, like either in row direction or  in column direction.
+- For arranging the we use float property, but by using flex we avoid float property.
+
+For learning the flex we know some properties of flexbox. 
+
+1. display:flex --> default direction row 
+
+2. flex-direction --> default row, you can change direction like column, row-reverse, column-reverse
+
+
+3. justify-content: justify content works on horizantal direction. justify content contains some properties like
+    a) flex-start
+    b) flex-end
+    c) flex-center
+    d) space-between
+    e) space-around
+    f) space-evenly
+
+4. align-items:
+-------------------------------
+This properties work on vertical direction.
+a) flex-start
+b) flex-end
+c) center
+d) stretch(default)
+
+
+
+5. align-content: 
+-------------------------
+This will work on multiple rows
+    a) flex-start
+    b) flex-end
+    c) center
+    d) space-between
+    e) space-around
+    f) space-evenly
+
+6. flex-wrap : default nowrap, wrap, wrap-reverse
+7. flex-grow : It adjust the extra space with providing equal width to single element.
+This property will work on child elements
+
+flex-grow : 1
+
+You can also use 
+flex-grow:2 ---> separate element
+
+
+
+8. order:
+-------------------------
+To change the postion of the element on the basis of device.
+
+This property will work on single element.
+To maintain the order we use two types of values.
+a) negative --> left side --> -1, -2
+b) positive --> right side --> 1, 2,5
+
+
+
+9. align-self:
+--------------------------
+This property will work on single element. 
+a) flex-start
+b) flex-end
+c) center
+d) stretch(default)
+
+10.flex-basis :
+----------------------
+To adjust the width of element.
 
 
 
 
 
-git add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

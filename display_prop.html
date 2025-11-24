@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        margin: auto;
+        width: 300px;
+        height: 200px;
+        border: 2px solid #000;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column;
+        align-items: stretch; */
+        /* align-content: center; */
+        /* align-items: flex-end; */
+        /* align-content: space-between; */
+        /* align-content: flex-start; */
+        align-items: flex-start;
+      }
+      .items {
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px;
+        /* width: 70px; */
+        text-align: center;
+        /* flex-grow: 1; */
+      }
+      .item1 {
+        background-color: orange;
+        color: white;
+        /* flex-grow: 3; */
+        /* order: 1; */
+        align-self: stretch;
+      }
+      .item2 {
+        background-color: green;
+        color: white;
+        /* order: 2; */
+      }
+      .item3 {
+        background-color: crimson;
+        color: white;
+        /* order: -1; */
+      }
+      .item4 {
+        background-color: purple;
+        color: white;
+        /* order: -2; */
+      }
+      .item5 {
+        background-color: black;
+        color: white;
+      }
+      .item6 {
+        background-color: brown;
+        color: white;
+      }
+
+      .item7 {
+        background-color: yellow;
+        color: black;
+      }
+      .item8 {
+        background-color: cornflowerblue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items item1">div1</div>
+      <div class="items item2">div2</div>
+      <div class="items item3">div3</div>
+      <div class="items item4">div4</div>
+      <div class="items item5">div5</div>
+      <!-- <div class="items item6">div6</div>
+      <div class="items item7">div7</div>
+      <div class="items item8">div8</div> -->
+    </div>
+  </body>
+</html>
