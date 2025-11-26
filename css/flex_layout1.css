@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 body {
   display: flex;
@@ -71,16 +73,106 @@ body {
 .main-box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
-  background-color: lightgray;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* background-color: lightgray; */
   min-height: 300px;
   width: 100%;
+  margin-top: 4px;
 }
 .main-box .box {
   display: flex;
   justify-content: center;
+
   align-items: center;
   flex-basis: 32%;
-  border: 1px solid #000;
+  border: 1px solid lightgray;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.box img {
+  width: 100%;
+  height: 400px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 10px;
+}
+.content .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 300px;
+  flex-grow: 1;
+}
+.row .desc {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+}
+.desc h1 {
+  padding: 10px;
+  font-weight: 400;
+  color: #235730;
+}
+.desc p {
+  padding: 10px;
+  text-align: justify;
+}
+.row .desc-img {
+  display: flex;
+  flex-basis: 29%;
+}
+.desc-img img {
+  width: 100%;
+}
+
+/* row1 code */
+
+.content .row1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 300px;
+  flex-grow: 1;
+}
+.row1 .desc1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+}
+.desc1 h1 {
+  padding: 10px;
+  font-weight: 400;
+  color: #1f3040;
+}
+.desc1 p {
+  padding: 10px;
+  text-align: justify;
+}
+.row1 .desc-img1 {
+  display: flex;
+  flex-basis: 29%;
+}
+.desc-img1 img {
+  width: 100%;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.footer p {
+  color: white;
+  font-size: 1.2em;
 }

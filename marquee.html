@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 80%;
+        border: 1px solid #000;
+        height: 60px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+      }
+      .box ul {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+      .box ul li {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 18px;
+      }
+      .box ul li img {
+        width: 25px;
+        height: 28px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <marquee behavior="scroll" direction="left">
+        <ul>
+          <li>
+            Breaking: Major tech company announces new product line<img
+              src="imgs/new.gif"
+            />
+          </li>
+          <li>
+            Breaking: Major tech company announces new product line
+            <img src="imgs/new.gif" />
+          </li>
+          <li>
+            Breaking: Major tech company announces new product line
+            <img src="imgs/new.gif" />
+          </li>
+        </ul>
+      </marquee>
+    </div>
+  </body>
+</html>
