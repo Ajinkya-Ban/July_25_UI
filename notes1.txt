@@ -1,0 +1,189 @@
+Introduction to CSS
+-----------------------------------
+What is mean by CSS?
+------------------------------
+1. The css is nothing cascadeing Stylesheet language.
+2. The CSS can be used for to make the web app more attractive as we know html elements   are ugly in nature.
+3. The CSS Was developed by Håkon Wium Lie in 1996.
+4. The first version of css was published in 1996 and it was known as CSS first Level.
+5. The second version of css was published in 1998 and it was know as css level second.
+6. After 10yrs 2008. The CSS3 was published which has the more properties. 
+
+Def : 
+------------
+The css is the beauty parlour for the html elements.
+
+What is the advantage of css?
+---------------------------------------------------
+TO make the website more attractive by using color combinations, fonts, images. 
+
+What is the basic syntax of css?
+--------------------------------------------
+syntax
+---------------
+selector{
+    key:value;
+    key:value;
+}
+
+How i can impliment the css and tell me what are the different ways in which i can apply css?
+---------------------------------------------------------------------------------
+There are different ways in which we can apply css with html file.
+1. inline CSS
+2. internal css : inside the html page in header section.
+
+3. external css : link 
+
+
+Note: Every html elements/tags its own style.
+
+
+What is mean by selectors and what are the different types of selectors?
+------------------------------------------------------------------------------------
+
+favicon --> image type --> png/jpg/.ico
+image size : 16 X 16 
+=============================================================================================
+
+Background
+---------------------
+1. background-color:
+---------------------------------
+Background color has one drawback you can select only one color at time.
+But my requirement i want to select multiple color at a time than i can use the property 
+called as background-image.
+
+1. background-image --> it will assign background image on the browser
+2. background-image --> linear-gradient() --> This function can be used for to select  multiple colors.
+
+Syntax:
+---------------------
+linear-gradient(direction/degree, colors)
+directions ---> to right, to left, to bottom, to top
+colors --> hexadecimal color, color name, rgb, rgba,
+
+2. background-image --. url(image path)
+3. background-repeat --> default is repeat. no-repeat, repeat-x, repeat-y
+4. background-size--> contain, cover and you can use width and height in percentage
+5. background-attachment --> scroll, fixed
+6. background-position : right, left, top, center
+
+
+Position:
+--------------------
+This property tell us how html element will position on the page. 
+ This property includes
+ 1. relative
+ 2. absolute
+ 3. sticky
+ 4. fixed
+ 5. static(default)
+
+ Static element can be moved by using position property in that we can use the property like
+ top
+ right
+ left
+ bottom
+ z-index 
+
+-----------------------------------------------------------------------------------
+
+border
+border-image 
+------------------
+    a) border-image-source
+    b) border-image-slice
+    c) border-image-repeat
+    d) border-image-width
+    e) border-image-outset 
+
+backdrop-fillter
+-------------------------------
+1. blur(1px)
+2. constrast(percentage) --> 100% ---> original 
+3. brightness(percentage) --> 100% --> original
+4. grayscale(percentage)
+5. sepia(percentage)
+
+
+display grid 
+-----------------------------------------
+flex has one drawback we can only one direction at a time
+To solve above  problem we use grid system.
+In grid you can work on both direction means row direction as well as column direction
+By using grid you make 85% web application as responsive.
+
+display : grid; 
+
+The following are some properties of grid 
+-------------------------------------------------
+1. display:grid 
+2. grid-template-columns:(width)
+3. grid-template-rows : height
+4. grid-row-gap
+5. grid-column-gap
+6. gap 
+
+Grid Postioning 
+-----------------------------------
+7. grid-row-start
+8. grid-row-end
+9. grid-column-start
+10. grid-column-end
+11. grid-row : row start / row end
+12. grid-column : column start / column end
+13. grid-area : row start / column start / row end / column end
+
+
+
+Grid Spanning
+-------------------------------------
+14. grid-row-start
+15. grid-row-end
+16. grid-column-start
+17. grid-column-end
+18. grid-row : row start / row end
+19. grid-column : column start / column end
+20. grid-area : row start / column start / row end / column end
+
+
+21. max-content
+22. min-content
+23. minmax()
+
+24. align-items
+25. justify-items
+26. place-items
+27. align-self
+28. justify-self
+29. place-self
+
+30. grid-template-area 
+31. grid-area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 80%;
+        height: 500px;
+        /* background-color: #045d5d; */
+        /* background-image: linear-gradient(140deg, yellow, black); */
+        /* background-image: linear-gradient(to right, #000428, #004e92); */
+        background-image: url(./imgs/nature.jpeg);
+        margin: auto;
+        position: relative;
+        background-size: cover;
+      }
+      .box h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 3.5em;
+        text-align: center;
+      }
+      #l {
+        color: yellow;
+      }
+      .box h1:hover {
+        -webkit-text-stroke-color: white;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1><span id="l">L</span>earning CSS is awesome.</h1>
+    </div>
+  </body>
+</html>
