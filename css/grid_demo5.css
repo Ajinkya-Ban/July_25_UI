@@ -11,7 +11,7 @@
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 90px auto 200px 300px 60px;
+  grid-template-rows: 90px auto 410px auto 50px;
   gap: 5px;
   grid-template-areas:
     "header header header"
@@ -42,7 +42,7 @@
   font-weight: 100;
 }
 .logo ul li img {
-  width: 100px;
+  width: 90px;
   height: 80px;
 }
 .header .menu {
@@ -76,26 +76,96 @@
   width: 100%;
 }
 .box1 {
-  background-color: #78909c;
+  /*background-color: #78909c;
+  */
   grid-area: box1;
+  border: 1px solid #000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.box1 img {
+  width: 100%;
+  height: 400px;
+  padding: 5px;
 }
 .box2 {
-  background-color: #78909c;
+  /* background-color: #78909c; */
   grid-area: box2;
+  border: 1px solid #000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.box2 img {
+  width: 100%;
+  height: 400px;
+  padding: 5px;
 }
 .box3 {
-  background-color: #78909c;
+  /* background-color: #78909c; */
   grid-area: box3;
+  border: 1px solid #000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+}
+.box3 img {
+  width: 100%;
+  height: 400px;
+  padding: 5px;
 }
 .content {
-  background-color: lightgray;
+  /* background-color: lightgray; */
   grid-area: content;
+}
+.content .row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: minmax(300px, auto);
+  align-items: center;
+  justify-items: start;
+  display: flex;
+  align-content: center;
+  gap: 5px;
+}
+.row .col {
+  gap: 5px;
+  width: 98%;
+  /* align-self: center;
+  justify-items: center; */
+  border: 1px solid #000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.row .col img {
+  width: 100%;
+  padding: 5px;
 }
 .footer {
   background-color: #212121;
   grid-area: footer;
 }
 .items {
-  padding: 10px;
+  /* padding: 10px; */
   color: white;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  font-size: 1.2em;
 }
