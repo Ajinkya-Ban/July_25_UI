@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 
+            max-width --> -1
+            min-width --> +1
+            mobile width --. 100%
+            vw --> viewport width --> 1vw -->1%
+         */
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 80%;
+        min-height: 200px;
+        margin: auto;
+        border: 1px solid #000;
+        display: flex;
+        padding: 10px;
+        gap: 5px;
+      }
+      .box1 {
+        flex-basis: 50%;
+        border: 1px solid #000;
+        background-color: crimson;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .box1 h1 {
+        font-size: 2vw;
+      }
+      .box1 p {
+        font-size: 1.4vw;
+      }
+      .box2 {
+        flex-basis: 50%;
+        border: 1px solid #000;
+        background-color: lightgoldenrodyellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* media query started */
+      @media only screen and (max-width: 500px) {
+        .box {
+          width: 100%;
+          flex-direction: column;
+        }
+        .box1 {
+          width: 100%;
+          min-height: 200px;
+          background-color: yellow;
+        }
+        .box1 p {
+          font-size: 3.4vw;
+        }
+        .box1 h1 {
+          font-size: 8vw;
+        }
+
+        .box2 {
+          width: 100%;
+          min-height: 200px;
+          background-color: lightskyblue;
+        }
+      }
+      @media only screen and (min-width: 500px) and (max-width: 768px) {
+        .box {
+          width: 100%;
+          flex-direction: column;
+        }
+        .box1 {
+          width: 100%;
+          min-height: 200px;
+          background-color: royalblue;
+        }
+        .box2 {
+          width: 100%;
+          min-height: 200px;
+          background-color: rosybrown;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="box1">
+        <h1>Welcome JS</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          beatae cum exercitationem quas. Placeat quas iure sit. Tenetur, ab
+          illo.
+        </p>
+      </div>
+
+      <div class="box2">
+        <h1>Welcome CSS</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          praesentium nesciunt amet placeat assumenda, ex vero necessitatibus
+          rerum? Accusantium, aliquam.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
