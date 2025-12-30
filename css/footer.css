@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-boxs;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 100px;
+  margin: auto;
+  border: 1px solid #000;
+}
+.other-links {
+  padding: 20px 0;
+  display: flex;
+
+  width: 100%;
+  min-height: 300px;
+  justify-content: space-between;
+  gap: 20px;
+
+  background-color: #3e4551;
+}
+.other-links .col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  padding: 20px;
+  position: relative;
+}
+.col h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+.col h4::after {
+  content: "";
+  position: absolute;
+  background-color: crimson;
+  height: 2px;
+  width: 20%;
+  top: 40px;
+  left: 35px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.col h4:hover::after {
+  width: 50%;
+}
+.col p {
+  color: white;
+  text-align: justify;
+}
+.col:first-child {
+  flex-basis: 35%;
+}
+.col h4 {
+  color: white;
+  padding-left: 15px;
+}
+.col ul {
+  list-style: none;
+}
+.col ul li {
+  padding: 10px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  position: relative;
+}
+.col ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.col ul li:hover {
+  padding-left: 20px;
+}
+.col ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: orange;
+  height: 2px;
+  width: 0%;
+  top: 40px;
+  left: 20px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.col ul li a:hover::after {
+  width: 30%;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 60px;
+  background-color: #3e4551;
+  gap: 10px;
+}
+.register p {
+  color: white;
+}
+.register a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 1px solid white;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.register a:hover {
+  background-color: white;
+  color: black;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 60px;
+  background-color: #3e4551;
+  gap: 10px;
+  padding: 10px 0;
+}
+.social a {
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
+.social a:hover {
+  background-color: white;
+  color: #3e4551;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 60px;
+  background-color: #323741;
+}
+.copy p {
+  color: white;
+}
